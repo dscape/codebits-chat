@@ -1,0 +1,16 @@
+{
+  "author": "blah",
+  "name": "codebits-balls",
+  "description": "dont care",
+  "version": "0.1.0",
+  "dependencies": {
+    "pusher-pipe": "0.0.x",
+    "express": "*",
+    "underscore": "1.1.x"
+  },
+  "devDependencies": {},
+  "subdomain": "codebits",
+  "engines": {
+    "node": ">=0.3.6"
+  }
+}

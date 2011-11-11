@@ -1,0 +1,73 @@
+#pen {
+	width: 760px;
+	height: 480px;
+	background: url(/images/background_welcome_760x460.png) top left no-repeat;
+}
+.player {
+	display: block;
+	position: relative;
+	top: 220px;
+	left: 50px;
+}
+.sprite {
+	display: block;
+	position: relative;
+	bottom: 0px;
+	width: 48px;
+	height: 48px;
+	background: url(/img/sapo.png) top left no-repeat;
+}
+.chatbox {
+	/*border: 1px solid red;*/
+	display: none;
+	position: absolute;
+	width: 150px;
+	height: 42px;
+	top: -45px;
+	left: 30px;
+}
+.chatarrow {
+	z-index: 200;
+	width: 11px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	background: url(/images/chatarrow.png) top left no-repeat;
+}
+.chat {
+	/*opacity: 0.7;*/
+	z-index: 100;
+	width: 140px;
+	height: 24px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: arial;
+	font-size: 11px;
+	color: #222;
+	background: #f9f9f9;
+	padding: 3px;
+	border: 1px solid #999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #ffffff, #eeeeee); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #ffffff, #eeeeee); /* IE10 */
+  background-image:      -o-linear-gradient(top, #ffffff, #eeeeee); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #ffffff, #eeeeee);
+}
+.chat span {
+	float: left;
+}
+.startBtn {
+	position: absolute;
+	top: 120px;
+	left: 280px;
+	display: block;
+	width: 200px;
+}
